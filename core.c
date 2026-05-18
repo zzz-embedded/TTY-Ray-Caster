@@ -146,9 +146,9 @@ void player_move()
             SPEED * sin(degreesToRadians(p->dir));break;
         case 's':p->x -= SPEED * cos(degreesToRadians(p->dir));p->y -=
             SPEED * sin(degreesToRadians(p->dir));break;
-        case 'a':p->x -= SPEED * sin(degreesToRadians(p->dir));p->y +=
+        case 'd':p->x -= SPEED * sin(degreesToRadians(p->dir));p->y +=
             SPEED * cos(degreesToRadians(p->dir));break;
-        case 'd':p->x += SPEED * sin(degreesToRadians(p->dir));p->y -=
+        case 'a':p->x += SPEED * sin(degreesToRadians(p->dir));p->y -=
             SPEED * cos(degreesToRadians(p->dir));break;
         case 'e':p->dir += 2;break;
         case 'q':p->dir -= 2;break;
